@@ -2,7 +2,7 @@ product: jvm/app
 
 dependencies:
   - ../shared
-  - org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.8.1
+  - $libs.kotlinx.coroutines.swing
   - $compose.desktop.currentOs
 
 settings:

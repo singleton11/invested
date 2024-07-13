@@ -7,4 +7,6 @@ dependencies:
   - $compose.material3
 
 settings:
-  compose: enabled
+  compose:
+    version: 1.7.0-alpha01
+    enabled: true

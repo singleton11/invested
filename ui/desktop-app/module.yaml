@@ -1,0 +1,9 @@
+product: jvm/app
+
+dependencies:
+  - ../shared
+  - org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.8.1
+  - $compose.desktop.currentOs
+
+settings:
+  compose: enabled

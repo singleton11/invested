@@ -1,0 +1,7 @@
+ktor:
+  deployment:
+    host: "localhost"
+    port: 8080
+  application:
+    modules:
+      - ApplicationKt.module
